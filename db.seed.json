@@ -1,0 +1,7 @@
+{
+    "items":[
+        {"id":1, "title": "Spider-Man", "creator":"Sam Raimi", "year":2002, "genre":"Action", "status":"done","rating":5, "note":"Classic"},
+        {"id":2, "title": "Spider-Man 2", "creator":"Sam Raimi", "year":2004, "genre":"Action", "status":"done","rating":5, "note":"Too soon"}
+
+    ]
+}
