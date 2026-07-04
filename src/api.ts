@@ -24,7 +24,7 @@ export async function getItem(id:number): Promise<Item |null>{
 
 export async function updateItem(
     id:number, 
-    data:{stats?: status; rating?: number|null; note?: string|null}
+    data:{stats?: Status; rating?: number|null; note?: string|null}
 ): Promise<Item>{
     const res=await fetch(`${API_URL}/${id}`,{
         method: "PATCH",
