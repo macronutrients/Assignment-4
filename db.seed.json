@@ -1,7 +1,13 @@
 {
     "items":[
         {"id":1, "title": "Spider-Man", "creator":"Sam Raimi", "year":2002, "genre":"Action", "status":"done","rating":5, "note":"Classic"},
-        {"id":2, "title": "Spider-Man 2", "creator":"Sam Raimi", "year":2004, "genre":"Action", "status":"done","rating":5, "note":"Too soon"}
+        {"id":2, "title": "Spider-Man 2", "creator":"Sam Raimi", "year":2004, "genre":"Action", "status":"done","rating":5, "note":"Too soon"},
+        {"id":3, "title": "F1: The Movie", "creator":"Joseph Kosinski", "year":2025, "genre":"Sports Drama", "status":"done","rating":5, "note":"Great Movie Honestly"},
+        {"id":4, "title": "Project Hail Mary", "creator":"Phil Lord and Christopher Miller", "year":2026, "genre":"Sci-Fi", "status":"done","rating":5, "note":"Interesting Movie"},
+        {"id":5, "title": "It Chapter Two", "creator":"Andy Muschietti", "year":2019, "genre":"Horror", "status":"done","rating":5, "note":"Interesting Movie"},
+        {"id":6, "title": "Obsession", "creator":"Curry Barker", "year":2025, "genre":"Horror", "status":"done","rating":5, "note":"Really Want to Watch"},
 
+        {"id":7, "title": "Sinners", "creator":"Ryan Coogler", "year":2025, "genre":"Horror", "status":"done","rating":5, "note":"Why the Brother though"}
+        {"id":8, "title": "Marty Supreme", "creator":"Curry Barker", "year":2025, "genre":"Horror", "status":"done","rating":5, "note":"Really Want to Watch"}
     ]
 }
