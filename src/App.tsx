@@ -65,3 +65,47 @@ function ItemCards({items}: {items:Item[]}){
     ))}
   </div>);
 }
+function CatalogPage(){
+  const {status} = useParams();
+  const{searchParams, setSearchParams} = useSearchParams();
+  const q = searchParams.get("q") ?? "";
+  const{data,isLoading,isError}= useQuery({
+    queryKey:["items"], queryFn: getItems
+  });
+
+  functino changeSearch(value:string){
+    const next = new URLSearchParams(searchParams);
+
+    if(value){
+      next.set("q",value);
+    }else{
+      next.delete("q");
+    }
+    setSearchParams(next);
+  }
+  if(status&&!statuses.includes(status as Status)){
+    return <p>Invalid status.</p>;
+  }
+
+  if (isLoading){
+    return <p>Loading items...</p>;
+  }
+  if(isError){
+    return <p>Error loading items.</p>;
+  }
+
+  const items = data??[];
+
+  const shown = items.filter((items)=>{
+    const statusMatch = !status|| items.status === status;
+    const titleMatch = items.title.toLowerCase().includes(q.toLowerCase());
+    return statusMatch && titleMatch;
+  });
+  return (
+    <><h1 className="text-3xl font-bold">MovieShelf</h1>
+    <p className="mt-2">Asimple movie tracker.</p>
+    <input value ={q} onChange={(e) => changeSearch(e.target.value)} placeholder = "search by title" className="mt-4 w-full rounded border p-2 text-black"/> <ItemCards items={shown} />
+    </>
+  );
+}
+
