@@ -1,6 +1,6 @@
-@import "tailwincss";
+@import "tailwindcss"; /*using tailwind for styling purposes*/
 
 body{
   margin:0;
-  font-family: "Times New Roman", Times, serif
+  font-family: "Times New Roman", Times, serif; 
 }

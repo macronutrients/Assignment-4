@@ -1,0 +1,28 @@
+{
+    "items":[
+        {"id":1, "title": "Spider-Man", "creator":"Sam Raimi", "year":2002, "genre":"Action", "status":"done","rating":5, "note":"Classic"},
+        {"id":2, "title": "Spider-Man 2", "creator":"Sam Raimi", "year":2004, "genre":"Action", "status":"done","rating":5, "note":"Too soon"},
+        {"id":3, "title": "F1: The Movie", "creator":"Joseph Kosinski", "year":2025, "genre":"Sports Drama", "status":"done","rating":5, "note":"Great Movie Honestly"},
+        {"id":4, "title": "Project Hail Mary", "creator":"Phil Lord and Christopher Miller", "year":2026, "genre":"Sci-Fi", "status":"done","rating":5, "note":"Interesting Movie"},
+        {"id":5, "title": "It Chapter Two", "creator":"Andy Muschietti", "year":2019, "genre":"Horror", "status":"done","rating":5, "note":"Interesting Movie"},
+        {"id":6, "title": "Obsession", "creator":"Curry Barker", "year":2025, "genre":"Horror", "status":"done","rating":5, "note":"Really Want to Watch"},
+
+        {"id":7, "title": "Sinners", "creator":"Ryan Coogler", "year":2025, "genre":"Horror", "status":"done","rating":5, "note":"Why the Brother though"},
+        {"id":8, "title": "Marty Supreme", "creator":"Josh Safdie", "year":2025, "genre":"Sports Drama", "status":"active","rating":null, "note":"Watched on a plane shame on me"},
+        {"id":9, "title": "The Long Walk", "creator":"Francis Lawrence", "year":2025, "genre":"Thriller", "status":"active","rating":null, "note":"Movie Recapped"},
+        {"id":10, "title": "28 Years Later", "creator":"Danny Boyle", "year":2025, "genre":"Horror", "status":"active","rating":null, "note":"Not bad"},
+        {"id":11, "title": "InterStellar", "creator":"Christopher Nolan", "year":2014, "genre":"Scie-Fi", "status":"done","rating":5, "note":"From long ago"},
+        {"id":12, "title": "Creed", "creator":"Ryan Coogler", "year":2014, "genre":"Drama", "status":"want","rating":null, "note":null},
+
+        {"id":13, "title": "Titanic", "creator":"James Cameron", "year":1997, "genre":"Drama", "status":"done","rating":5, "note":"iconic"},
+        {"id":14, "title": "Joker", "creator":"Todd Phillips", "year":2019, "genre":"Drama", "status":"dropped","rating":3, "note":"Maybe I did watch it Don't know but wouldn't willingly"},
+        {"id":15, "title": "Mission: Impossible - The Final Reckoning", "creator":"Christopher McQuarrie", "year":2025, "genre":"Action", "status":"done","rating":5, "note":"love their movies"},
+        {"id":16, "title": "Dune: Part Two", "creator":"Denis Villeneuve", "year":2024, "genre":"Scie-Fi", "status":"active","rating":null, "note":"watched it somewhere sometime not sure if I finished it"},
+        {"id":17, "title": "Inside Out 2", "creator":"Kelsey Mann", "year":2024, "genre":"Animation", "status":"done","rating":5, "note":"no idea why"},
+        {"id":18, "title": "A Minecraft Movie", "creator":"Jared Hess", "year":2025, "genre":"Adventure", "status":"want","rating":null, "note":null},
+
+        {"id":19, "title": "A Quiet Place", "creator":"John Krasinski", "year":2018, "genre":"Horror", "status":"dropped","rating":4, "note":"Honestly just lazy too watch it"},
+        {"id":20, "title": "Lightyear", "creator":"Angus MacLane", "year":2022, "genre":"Animation", "status":"dropped","rating":3, "note":"Toy story look alike movie"}
+        
+    ] 
+}
