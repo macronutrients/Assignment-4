@@ -1,5 +1,4 @@
 
-```
 #MovieShelf 
 so for my tracker I allows this app to be able to browse  movies, serach by title, filter , open a page of the details, add a note, and even rate it
 
