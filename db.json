@@ -24,5 +24,5 @@
         {"id":19, "title": "A Quiet Place", "creator":"John Krasinski", "year":2018, "genre":"Horror", "status":"dropped","rating":4, "note":"Honestly just lazy too watch it"},
         {"id":20, "title": "Lightyear", "creator":"Angus MacLane", "year":2022, "genre":"Animation", "status":"dropped","rating":3, "note":"Toy story look alike movie"}
         
-    ]
+    ] 
 }
